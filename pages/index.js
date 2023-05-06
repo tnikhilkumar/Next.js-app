@@ -20,7 +20,8 @@ export default function Home() {
          <p className='mt-2'>
           {post.content.substring(0, 32)}...
          </p>
-         </div>
+         </div>  
+         
        </Link> 
         ))}
       </main>
